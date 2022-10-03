@@ -1,0 +1,94 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    margin-top: 12%;
+}
+
+img {
+    width: 40%;
+}
+
+.row {
+    margin-left: 8%;
+}
+
+input,
+.new-account-btn {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    font-size: 17px;
+    text-decoration: none;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #166fe5;
+}
+
+.login-btn {
+    background-color: #166fe5;
+    color: white;
+    cursor: pointer;
+}
+
+.new-account-btn {
+    width: 50%;
+    background-color: #36a420;
+    color: white;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+.login-form {
+    border-radius: 10px;
+    box-shadow: 5px black;
+}
+
+.forgotton {
+    text-decoration: none;
+    margin-left: 28%;
+}
+
+.errorbox {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #ffebe8;
+    border: 1px solid #dd3c10;
+}
+
+.error {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .row {
+        text-align: center;
+        margin-left: 4%;
+        width: 90%;
+    }
+
+    .new-account-btn {
+        margin-left: 0;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .forgotton {
+        margin-left: 12%;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 60%;
+    }
+
+}
